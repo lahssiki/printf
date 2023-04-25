@@ -3,11 +3,11 @@
 /**
  * print_unsigned - unsigned number
  * @types: List a of args
- * @buffer: Buffer array 
+ * @buffer: Buffer array
  * @flags:  flags
  * @width: width
  * @precision: Precision
- * @size: Size 
+ * @size: Size
  * Return: int
  */
 
@@ -37,13 +37,13 @@ int print_unsigned(va_list types, char buffer[],
 
 
 /**
- * print_octal - Prints an unsigned number 
+ * print_octal - Prints an unsigned number
  * @types: list of args
- * @buffer: Buffer array 
+ * @buffer: Buffer array
  * @flags: flags
  * @width: width
- * @precision: Precision 
- * @size: Size 
+ * @precision: Precision
+ * @size: Size
  * Return: Num of chars printed
  */
 int print_octal(va_list types, char buffer[],
